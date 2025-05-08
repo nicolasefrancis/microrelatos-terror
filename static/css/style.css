@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    background: #111;
+    color: #eee;
+}
+
+header {
+    text-align: center;
+    padding: 1rem 0;
+    background: #222;
+}
+
+main {
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+label {
+    display: block;
+    margin: .8rem 0;
+}
+
+select {
+    margin-left: .5rem;
+}
+
+button {
+    background: #b00;
+    color: #eee;
+    border: 0;
+    padding: .4rem 1rem;
+    cursor: pointer;
+}
+
+article {
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    font-size: .8rem;
+    margin: 3rem 0 1rem;
+    color: #888;
+}
+
+a {
+    color: #c33;
+}

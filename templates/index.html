@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form method="post">
+  <label>Escenario:
+    <select name="escenario">
+      {% for e in escenarios %}<option>{{ e }}</option>{% endfor %}
+    </select>
+  </label>
+
+  <label>Época:
+    <select name="epoca">
+      {% for e in epocas %}<option>{{ e }}</option>{% endfor %}
+    </select>
+  </label>
+
+  <label>Monstruo:
+    <select name="monstruo">
+      {% for m in monstruos %}<option>{{ m }}</option>{% endfor %}
+    </select>
+  </label>
+
+  <button type="submit">Invocar relato</button>
+</form>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+  <p>{{ relato }}</p>
+</article>
+
+<p>
+  <a href="https://twitter.com/intent/tweet?text={{ relato|urlencode }}" target="_blank">
+    Compartir en X
+  </a>
+</p>
+
+<p><a href="{{ url_for('index') }}">Generar otro</a></p>
+{% endblock %}
